@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100vh;
+  font-family: "Droid Arabic Kufi", serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-content: space-between;
+  align-content: space-between;
+}
+
+header img {
+  width: 600px;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  width: 400px;
+}
+h1,
+h2 {
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  background-color: black;
+  height: 10vh;
+}
+
+footer .social a i {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 20px;
+  transition: all 0.3s;
+}
+
+footer .social a i:hover {
+  color: #6f1e51;
+}
